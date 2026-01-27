@@ -109,7 +109,7 @@ Used when data needs to be available quickly for analysis.
 
 ## What is Amazon Redshift?
 
-**:contentReference[oaicite:0]{index=0}** is a **cloud-based data warehouse** provided by **AWS** for **analytical (OLAP) workloads**.
+It is a **cloud-based data warehouse** provided by **AWS** for **analytical (OLAP) workloads**.
 
 > Redshift is used to analyze large amounts of data using SQL.
 
@@ -141,7 +141,6 @@ Best choice for **AWS-based architectures**.
 
 | Feature | Snowflake | BigQuery | Amazon Redshift |
 |------|----------|---------|----------------|
-| Provider | :contentReference[oaicite:0]{index=0} | :contentReference[oaicite:1]{index=1} | :contentReference[oaicite:2]{index=2} |
 | Cloud | AWS, Azure, GCP | GCP only | AWS only |
 | Type | Fully managed | Serverless | Managed (cluster-based) |
 | SQL Style | ANSI SQL | Standard SQL | PostgreSQL-like SQL |
