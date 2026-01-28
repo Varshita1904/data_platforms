@@ -39,3 +39,34 @@ salary → 50000, 60000
 df.write.parquet("employees.parquet")
 spark.read.parquet("employees.parquet")
 
+## 📄 CSV (Comma-Separated Values)
+
+CSV is a **row-based, plain text** file format.
+
+### Example
+```csv
+id,name,salary
+1,Alice,50000
+2,Bob,60000
+```
+
+## 📄 JSON (JavaScript Object Notation)
+
+JSON is a **lightweight, semi-structured, row-based** data format commonly used for **APIs, configuration files, and logs**.
+
+### Example
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "salary": 50000
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "salary": 60000
+  }
+]
+```
